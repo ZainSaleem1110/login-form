@@ -18,19 +18,19 @@ function App() {
                     <Box className="sm:w-[350px] w-[250px]">
                         <Box>
                             <label className="text-white pl-3 block">Name</label>
-                            <input className="bg-black mt-1 pl-3 text-white h-[42px] w-[100%] rounded-sm" name="lastName" required placeholder="Enter your full name" />
+                            <input className="bg-black mt-1 pl-3 text-white h-[42px] w-[100%] rounded-sm text-[14px]" name="lastName" required placeholder="Enter your full name" />
                         </Box>
                         <Box className="mt-4">
                             <label className="text-white pl-3 block">Email</label>
-                            <input className="bg-black mt-1 pl-3 text-white h-[42px] w-[100%] rounded-sm" type="email" name="Email" required placeholder="Enter your email address" />
+                            <input className="bg-black mt-1 pl-3 text-white text-[14px] h-[42px] w-[100%] rounded-sm" type="email" name="Email" required placeholder="Enter your email address" />
                         </Box>
                         <Box className="mt-4">
                             <label className="text-white pl-3 block">Wallet Address</label>
-                            <input className="bg-black mt-1 pl-3 text-white h-[42px] w-[100%] rounded-sm" type="email" name="Email" required placeholder="Enter your email address" />
+                            <input className="bg-black mt-1 text-[14px] pl-3 text-white h-[42px] w-[100%] rounded-sm" type="email" name="Email" required placeholder="Enter your email address" />
                         </Box>
                         <Box className="mt-4">
                             <label className="text-white pl-3 block">Wallet Address</label>
-                            <input className="bg-black mt-1 pl-3 text-white h-[42px] w-[100%] rounded-sm" type="email" name="Email" required placeholder="Enter your email address" />
+                            <input className="bg-black mt-1 text-[14px] pl-3 text-white h-[42px] w-[100%] rounded-sm" type="email" name="Email" required placeholder="Enter your email address" />
                         </Box>
                         <Box className="flex justify-center mt-4">
                             <button className="w-[180px] h-[42px] text-[#46D7D7] hover:bg-[#46D7D7] hover:text-white" style={{border:"1px solid #46D7D7"}}>

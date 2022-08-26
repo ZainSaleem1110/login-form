@@ -2,12 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: AntikorMono;
+    src: url(/src/images/fonts/Taner\ Ardali\ \ Antikor\ Mono\ Bold.ttf);
+}
 
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: AntikorMono;
 }
+
 body{
     background-color:  black;
     width: 100%;
