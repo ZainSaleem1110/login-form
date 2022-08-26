@@ -6,6 +6,10 @@
     font-family: AntikorMono;
     src: url(/src/images/fonts/Taner\ Ardali\ \ Antikor\ Mono\ Bold.ttf);
 }
+@font-face {
+    font-family: TacticSans;
+    src: url(/src/images/font2/TacticSans-Med.otf);
+}
 
 *{
     padding: 0px;
@@ -20,4 +24,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.heading{
+    font-family: TacticSans !important;
 }

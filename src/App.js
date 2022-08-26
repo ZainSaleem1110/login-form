@@ -8,7 +8,7 @@ function App() {
     return (
         <>
             <Box className="flex justify-center items-center mb-3 text-[#825AFF]">
-                <Typography><span className="sm:text-[42px] text-[20px]">JOIN THE WHITELIST</span></Typography>
+                <Typography><span className="sm:text-[42px] text-[20px] heading">JOIN THE WHITELIST</span></Typography>
             </Box>
             <Box className="w-[100%] flex">
                 <Box className="mt-3 md:flex hidden items-start">
