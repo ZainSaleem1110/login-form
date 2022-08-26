@@ -2,13 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@500&family=Baloo+Chettan+2&family=Cinzel:wght@500&family=Inter:wght@300&family=Saira:ital,wght@0,100;0,500;1,400&display=swap');
 
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: ANEK;
 }
 body{
     background-color:  black;
