@@ -24,7 +24,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow-x: hidden !important;
 }
 .heading{
     font-family: TacticSans !important;
+}
+.inp:focus{
+    border:"1px solid #825AFF !important"
 }
